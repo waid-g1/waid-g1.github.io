@@ -1,0 +1,45 @@
+/*Media querys*/
+#fundo-externo {
+    /*overflow: hidden; /* para que não tenha rolagem se a imagem de fundo for maior que a tela */
+    width: 100%;
+    height: auto%;
+    /*position: relative; /* criamos um contexto para posicionamento */
+}
+
+@media (max-width: 767.98px) {
+    /*#container{
+        margin-top: 115px;
+        padding-right: 0;
+        padding-left: 0;
+    }*/
+
+    #fundo{
+        /*position: fixed; /* posição fixa para que a possível rolagem da tela não revele espaços em branco */
+        width: 100%;
+        height: auto;
+
+        margin-top: 106px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+@media (min-width: 768px) {
+    /*#container{
+        position: absolute;
+
+
+        margin-top: 70px;
+        padding-right: 0;
+        padding-left: 0;
+    }*/
+
+    #fundo{
+        /*position: fixed; /* posição fixa para que a possível rolagem da tela não revele espaços em branco */
+        width: 100%;
+        height: auto;
+
+        margin-top: 66px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
